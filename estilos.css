@@ -11,6 +11,7 @@ body {
    }
 
 .container {
+   
    max-width: 1200px;
    margin: 0 auto;
 }
@@ -68,3 +69,9 @@ body {
         cursor: pointer;
         display: flex;
 }
+
+.header-content {
+        text-align: center;
+        align-items: center;
+}
+
