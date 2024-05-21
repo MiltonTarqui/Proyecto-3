@@ -158,6 +158,7 @@ textarea{
 label{
   display: block; 
 	float: center; 	
+        color: #FFFDFC;
 }
 
 
@@ -204,14 +205,16 @@ h1{
 h3{
 	font-size: 16px; 
 	padding-bottom: 30px;
-	color: #0e0e0e;   
+	color: #ab4493;
+
 }
 
-
-p{
+p {
 	font-size: 14px; 
-	color: #0e0e0e; 
+	color: #ab4493;
 }
+
+
 
 
 ::-webkit-input-placeholder {
