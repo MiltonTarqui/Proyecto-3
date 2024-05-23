@@ -198,7 +198,7 @@ body {
 .services-group {
         display: flex;
         justify-content: space-between;
-        margin-bottom: 50px;
+        margin-bottom: 100px;
 }
 
 .services-1{
@@ -206,8 +206,8 @@ body {
 }
 
 .services-1 img{
-        width: 25px;
-        margin-bottom: 15px;
+        /* width: 25px; */
+        margin-bottom: 25px;
 }
 
 .services-1 h3{
