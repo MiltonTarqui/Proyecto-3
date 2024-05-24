@@ -149,13 +149,15 @@ body {
 
 .coffee-1 img{
         width: 200px;
-       
+       /* height: auto */
 }
 
 .coffee-img{
         position: absolute;
         top: 0;
         right: 0;
+        /* height: auto; */
+       
 }
 
 .coffee-1 h3{
