@@ -238,5 +238,13 @@ p {
 	border: 1px solid #97d848;
 }
 
+.footer{
+        padding: 100px 0;
+        background-color: #000000;
+}
 
+.footer-content {
+        display: flex;
+        justify-content: space-between;
+}
 /* creado por javiniguez.com, Julio 2019 */
