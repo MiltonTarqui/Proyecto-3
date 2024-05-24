@@ -127,8 +127,8 @@ body {
         color: #323337;
         text-transform: uppercase;
         padding: 0 250px;
-        margin-bottom: 15px;
-}
+        margin-bottom: 15px; */
+} 
 
 .txt-p{
         font-size: 16px;
@@ -136,11 +136,11 @@ body {
         padding: 0 250px;
         margin-bottom: 35px;
 }
-
+/* aqui cambia las imagenes de menu */
 .coffee-group{
         display: flex;
-        justify-content: space-between;
-        margin-bottom: 0px;
+        /* justify-content: space-between; */
+        margin-bottom: 0px; 
         
         
 }
@@ -315,4 +315,21 @@ p{
         margin-bottom: 15px;
 }
 
-/* Contacto Externo */
+ .coffee-group,
+.coffee-group1 {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en múltiples filas si es necesario */
+    justify-content: space-between;
+    gap: 10px; /* Espacio entre los elementos */
+    margin-bottom: 0px;
+    background-color: #e1e2e6;
+} 
+
+
+
+
+
+
+
+
+Contacto Externo
