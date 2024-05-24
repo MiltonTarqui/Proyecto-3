@@ -142,13 +142,16 @@ body {
         justify-content: space-between;
         margin-bottom: 0px;
         
+        
 }
 .coffee-group1{
         display: flex;
         justify-content: space-between;
         margin-bottom: 0px;
         background-color: #e1e2e6;
-        /* position: relative; */
+        position: relative; 
+        margin: 5%;
+       
 }
 
 
