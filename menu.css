@@ -129,8 +129,10 @@ body {
         line-height: 70px;
         color: #323337;
         text-transform: uppercase;
-        padding: 0 250px;
-        margin-bottom: 15px; */
+        padding: 0 25px;
+        margin-bottom: 15px; 
+        margin-left: 350px;
+        
 }  
 
 .txt-p{
@@ -160,6 +162,7 @@ body {
 
 .coffee-1{
         padding: 0 25px;
+       
 }
 
 .coffee-1 img{
@@ -180,6 +183,7 @@ body {
         color: #323337;
         font-size: 20px;
         margin-bottom: 15px;
+       
 }
 
 .services {
@@ -261,11 +265,12 @@ body {
 }
 
 h2{
-        font-size: 55px;
-        line-height: 70px;
+         font-size: 55px;
+        line-height: 70px; 
         color: #323337;
         text-transform: uppercase;
         margin-bottom: 20px;
+        
 }
 
 p{
