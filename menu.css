@@ -14,7 +14,8 @@ body {
 
 .container {
    max-width: 1200px;
-   margin: 0 auto;
+   margin:  auto; 
+   display: inline-block;
 }
 
 .header {
@@ -119,16 +120,18 @@ body {
 
 .coffee-content{
         text-align: center;
+       
+                
 }
 
-.coffee-content h2{
+ .coffee-content h2{
         font-size: 55px;
         line-height: 70px;
         color: #323337;
         text-transform: uppercase;
         padding: 0 250px;
         margin-bottom: 15px; */
-} 
+}  
 
 .txt-p{
         font-size: 16px;
@@ -139,7 +142,7 @@ body {
 /* aqui cambia las imagenes de menu */
 .coffee-group{
         display: flex;
-        /* justify-content: space-between; */
+         justify-content: space-between; 
         margin-bottom: 0px; 
         
         
@@ -161,12 +164,16 @@ body {
 
 .coffee-1 img{
         width: 200px;
+        
 }
 
 .coffee-img{
         position: absolute;
         top: 0;
         right: 0;
+        
+      
+           
 }
 
 .coffee-1 h3{
@@ -327,7 +334,16 @@ p{
 
 
 
-
+.coffee-group,
+.coffee-group1 {
+    display: flex;
+    justify-content: flex-start; /* Cambiado de space-between a flex-start */
+    gap: 10px; /* Espacio entre los elementos */
+    margin-bottom: 0px;
+    background-color: #e1e2e6;
+    flex-wrap: nowrap; /* Evita que las imágenes se envuelvan en múltiples filas */
+    margin-left:140px ;
+}
 
 
 
