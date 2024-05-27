@@ -305,10 +305,10 @@ p{
         color: #323337;
 }
 
-.footer{
+/* .footer{
         padding: 50px 0;
         background-color: #000000;
-}
+} */
 
 .footer-content {
         display: flex;
@@ -353,7 +353,11 @@ p{
 }
 
 
-
+.footer{
+	margin-top: 70px;
+        padding: 100px 0;
+        background-color: #000000;
+}
 
 /* Contacto Externo */
 
