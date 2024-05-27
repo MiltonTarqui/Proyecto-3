@@ -237,7 +237,7 @@ body {
 }
 
 .general-3 {
-        background-image: url(../imagenes/cafefelicidad.jfif);
+        background-image: url(../imagenes/fondo\ tasas.png);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -284,14 +284,15 @@ p{
 }
 
 .footer{
-        padding: 100px 0;
+        padding: 50px 0;
         background-color: #000000;
+        margin-top: 70px;
 }
 
 .footer-content {
         display: flex;
-        justify-content: space-between;
-}
+        justify-content:space-between;
+       
 
 .link h3{
         font-size: 18px;
