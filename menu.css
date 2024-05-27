@@ -114,8 +114,13 @@ body {
 /* Milton cambios */
 .coffee{
         padding: 100px 0;
-        background-color: #e1e2e6;
+        /* background-color: #e1e2e6; */
         position: relative;
+        /* background-image: url(imagenes/menu2.jpg); */
+        /* background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover; */
+        width: 100%;
 }
 
 .coffee-content{
