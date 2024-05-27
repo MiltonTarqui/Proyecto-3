@@ -161,7 +161,7 @@ body {
 
 
 .coffee-1{
-        padding: 0 25px;
+        padding: 20px 25px;
        
 }
 
@@ -280,13 +280,14 @@ p{
 }
 
 .blog {
-        padding: 100px 0;
+        padding: 100px 0 ;
         text-align: center;
 }
 
 .blog-content{
         display: flex;
         justify-content: space-between;
+
 }
 
 .blog-1 {
@@ -313,7 +314,7 @@ p{
         display: flex;
         justify-content: space-between;
 
-margin-top: 0px;}
+;}
 
 .link h3{
         font-size: 18px;
@@ -354,4 +355,6 @@ margin-top: 0px;}
 
 
 
-Contacto Externo
+/* Contacto Externo */
+
+
