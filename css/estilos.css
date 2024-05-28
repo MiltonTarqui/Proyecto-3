@@ -315,48 +315,19 @@ p{
 @media(max-width: 1100px){
 
         .menu{
-                padding: 100px;
+                padding: 0px;
         }
        .menu label{
-                display: initial;
+                cursor: pointer;
+                display: none;
         } 
 
-       /* .menu .navbar{
-                position: absolute;
-                top: 100%;
-                left: 0;
-                right: 0;
-                background-color:#323337;
-                display: none;
-        }
-
-        .menu .navbar ul li{
-                width: 100%;
-        }
-
-        #menu:checked ~ .navbar{
-                display: initial;
-        }
-
-        .header{
-               
-                min-height: 0vh;
-        }
-
-        .header-content{
-                
-                padding: 40px 20px;
-        }
-
         .header-content h1 {
-                font-size: 3em;
-                      
+                font-size: 40px;
+                line-height: 60px;
+                margin-bottom: 15px;
         }
-
-        .header-content p{
-                padding: 0;
-        }
-
+    
         .coffee{
                 padding: 30px;
         }
@@ -366,32 +337,25 @@ p{
                 padding: 0;
         }
 
+        .coffee-img{
+                display: none;
+        }
+
         .coffee-group{
                 flex-direction: column;
                 margin-bottom: 0;
         }
 
-        .coffee-img{
-                display: none;
-        }
-
         .services{
-                padding: 30px;
+                padding: 10px;
+                
         }
-
-        .services-content p{
-                padding: 0;
+        .services h2{
+                font-size: 3em;
         }
+          
 
-        .services-group{
-                flex-direction: column;
-                margin-bottom: 0;
-        }
-
-        .services-1{
-                margin-bottom: 25px;
-        }
-
+/*
         .general{
                 flex-direction: column;
                 
