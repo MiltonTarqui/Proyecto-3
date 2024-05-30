@@ -151,7 +151,8 @@ hr{
 }
 
 #confirmarPedido:hover{
-     background-color: rgb(147, 198, 218) 
+     background-color: rgb(147, 198, 218); 
+     color:black;
    
 }
 .header{
