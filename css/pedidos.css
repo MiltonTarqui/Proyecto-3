@@ -1,5 +1,8 @@
-main{
-    background-color: rgb(16, 92, 107);
+body{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)),
+        url(../imagenes/bg.jpg);
 }
 
 h2{
@@ -111,7 +114,7 @@ hr{
 }
 
 #comentarios {
-    width: 99%; /* Opcional: ajusta el ancho según tus preferencias */
+    width: 99%; /* Opcional: ajusta el ancho segï¿½n tus preferencias */
     text-align: center;
 }
 
