@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@400;500,600;800&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@400;500,600;800&display=swap');
 
 *{
    margin: 0;
@@ -111,15 +111,12 @@ body {
     background-color: #ebad8d;
 }
 
-/* Milton cambios */
+
 .coffee{
         padding: 100px 0;
-        /* background-color: #e1e2e6; */
+       
         position: relative;
-        /* background-image: url(imagenes/menu2.jpg); */
-        /* background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover; */
+       
         width: 100%;
 }
 
@@ -146,7 +143,7 @@ body {
         padding: 0 250px;
         margin-bottom: 35px;
 }
-/* aqui cambia las imagenes de menu */
+
 .coffee-group{
         display: flex;
          justify-content: space-between; 
@@ -234,7 +231,7 @@ body {
 }
 
 .services-1 img{
-        /* width: 25px; */
+       
         margin-bottom: 25px;
 }
 
@@ -310,10 +307,6 @@ p{
         color: #323337;
 }
 
-/* .footer{
-        padding: 50px 0;
-        background-color: #000000;
-} */
 
 .footer-content {
         display: flex;
@@ -337,9 +330,9 @@ p{
  .coffee-group,
 .coffee-group1 {
     display: flex;
-    flex-wrap: wrap; /* Permite que los elementos se ajusten en múltiples filas si es necesario */
+    flex-wrap: wrap; 
     justify-content: space-between;
-    gap: 10px; /* Espacio entre los elementos */
+    gap: 10px; 
     margin-bottom: 0px;
     background-color: #e1e2e6;
 } 
@@ -349,11 +342,11 @@ p{
 .coffee-group,
 .coffee-group1 {
     display: flex;
-    justify-content: flex-start; /* Cambiado de space-between a flex-start */
-    gap: 10px; /* Espacio entre los elementos */
+    justify-content: flex-start; 
+    gap: 10px; 
     margin-bottom: 0px;
     background-color: #e1e2e6;
-    flex-wrap: nowrap; /* Evita que las imágenes se envuelvan en múltiples filas */
+    flex-wrap: nowrap; 
     margin-left:140px ;
 }
 
@@ -362,5 +355,193 @@ p{
 	margin-top: 70px;
         padding: 100px 0;
         background-color: #000000;
+}*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@400;500,600;800&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style: none;
 }
 
+body {
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.container {
+   max-width: 100%;
+   margin: 0 auto;
+}
+
+.header {
+    background-image: linear-gradient(
+    rgba(0,0,0,0.6),
+    rgba(0,0,0,0.6)),
+    url(../imagenes/bg.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+        color: #FFFDFC;
+        font-size: 25px;
+        font-weight: 800;
+}
+
+.menu .navbar ul li {
+        position: relative;
+        float: left;
+}
+.menu .navbar ul li a {
+        font-size: 18px;
+        padding: 20px;
+        color: #FFFDFC;
+        display: block;
+        font-weight: 600;
+}
+
+.menu .navbar ul li a:hover {
+        color: #ce967b;
+}
+
+#menu {
+        display: none;
+}
+
+.menu-icono {
+        width: 25px;
+}
+
+.menu label {
+        cursor: pointer;
+        display: none;
+}
+
+.menu-logo {
+    width: 150px;
+}
+
+.header-content {
+        text-align: center;
+}
+
+.header-content h1 {
+        font-size: 75px;
+        line-height: 80px;
+        color: #f9fafc;
+        text-transform: uppercase;
+        margin-bottom: 35px;
+}
+
+.header-content p {
+        font-size: 16px;
+        color: #c5c5c5;
+        padding: 0 250px;
+        margin-bottom: 25px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #ce967b;
+    color: #f9fafc;
+    text-transform: uppercase;
+}
+
+.btn-1:hover {
+    background-color: #ebad8d;
+}
+
+.coffee-content{
+        padding: 60px;
+        text-align: center;
+}
+
+.container img {
+        width: 200px;  /* Establece un ancho fijo para todas las imágenes */
+        height: 200px; /* Establece una altura fija para todas las imágenes */
+        object-fit: cover; /* Ajusta la imagen para cubrir el área asignada */
+        border-radius: 10px;
+    }
+
+.coffee-group{
+       
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        justify-items: center;
+        row-gap: 20px;
+}
+
+  
+
+.coffee-group1{
+        padding: 30px;
+        text-align: center;
+}
+
+.coffee-masas img {
+        width: 200px;  /* Establece un ancho fijo para todas las imágenes */
+        height: 200px; /* Establece una altura fija para todas las imágenes */
+        object-fit: cover; /* Ajusta la imagen para cubrir el área asignada */
+        border-radius: 10px;
+    }
+
+.coffee-masas{
+        padding: 30px;
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        justify-items: center;
+        row-gap: 20px;
+}
+
+h2{
+        font-size: 40px;
+        line-height: 70px;
+        color: #323337;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+}
+
+.footer{
+        padding: 30px;
+        background-color: #000000;
+}
+
+.footer-content {
+        display: flex;
+        justify-content: space-between;
+}
+
+.link h3{
+        font-size: 18px;
+        color: #f9fafc;
+        margin-bottom: 15px;
+}
+
+.link a {
+        font-size: 16px;
+        color: #c5c5c5;
+        display: block;
+        margin-bottom: 15px;
+}
+
+/* Contacto Externo */
