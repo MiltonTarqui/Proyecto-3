@@ -7,19 +7,21 @@ body{
 
 h2{
     text-align: center;
+    color:#fff
 }
 
 .formulario{
     height: auto;
     width: 100vh;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 0px;
+    color:#fff
 }
 
 fieldset{
     text-align: center;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     border: 2px solid white;
     outline: none;
     border-radius: 10px;
@@ -147,4 +149,7 @@ hr{
 
 #confirmarPedido:hover{
     background-color: rgb(147, 198, 218)
+}
+.header{
+    min-height: 30vh; 
 }
