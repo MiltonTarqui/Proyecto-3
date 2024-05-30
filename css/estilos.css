@@ -38,6 +38,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .logo {
@@ -51,7 +52,7 @@ body {
         float: left;
 }
 .menu .navbar ul li a {
-        font-size: 18px;
+        font-size: 24px;
         padding: 20px;
         color: #FFFDFC;
         display: block;

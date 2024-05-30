@@ -53,7 +53,7 @@ body {
         float: left;
 }
 .menu .navbar ul li a {
-        font-size: 18px;
+        font-size: 24px;
         padding: 20px;
         color: #FFFDFC;
         display: block;
@@ -97,7 +97,7 @@ body {
         font-size: 16px;
         color: #c5c5c5;
         padding: 0 250px;
-        margin-bottom: 25px;
+        margin-bottom: 15px;
 }
 
 .btn-1 {
