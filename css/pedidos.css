@@ -158,3 +158,6 @@ hr{
 .header{
     min-height: 30vh; 
 }
+.menu-logo{
+    width: 150px;
+}
