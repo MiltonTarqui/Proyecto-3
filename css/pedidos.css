@@ -161,3 +161,8 @@ hr{
 .menu-logo{
     width: 150px;
 }
+
+.navbar-nav a:active {
+    background-color: #337ab7; /* Cambia el color de fondo */
+    color: #ce967b; /* Cambia el color del texto */
+  }
