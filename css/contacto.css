@@ -260,3 +260,8 @@ p {
         display: block;
         margin-bottom: 15px;
 }
+
+.navbar-nav a:active {
+        background-color: #337ab7; /* Cambia el color de fondo */
+        color: #ce967b; /* Cambia el color del texto */
+      }
