@@ -229,6 +229,16 @@ body {
         font-size: 18px;
 }
 
+
+.services-group img{
+        transition: all 300ms;
+}
+
+.services-group :hover img{
+        filter: brightness(1.2);
+        transform: scale(1.3);
+}
+
 .general {
         display: flex;
 }
