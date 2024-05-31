@@ -30,6 +30,10 @@ body {
     align-items: center;
 }
 
+.container .navbar .menu-color{
+        color: #ce967b;    
+}
+
 .menu {
     position: absolute;
     top: 0;
