@@ -103,4 +103,20 @@ function validarPedidos(){
 
     document.pedidos.submit()
 }
-    
+
+// Autoseleccionar cafe si se accede desde menu
+const urlParams = new URLSearchParams(window.location.search);
+
+const cafeSeleccionado = urlParams.get('cafe')?document.getElementById('cafe').value=urlParams.get('cafe'):urlParams.get('nonsel');
+
+// Obtener y autoseleccionar comidas si se accede desde menu
+
+const platosSeleccionados = urlParams.getAll('com');
+
+// Marcar las casillas correspondientes
+platosSeleccionados.forEach(cbox => {
+    const check = document.querySelector(`input[value="${cbox}"]`);
+    if (check) {
+        check.checked = true;
+    }
+});
