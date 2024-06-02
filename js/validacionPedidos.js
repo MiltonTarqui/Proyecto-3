@@ -101,7 +101,16 @@ function validarPedidos(){
         return
     };
 
-    document.pedidos.submit()
+    if (comentariosInput.trim() === '') {
+        document.pedidos.comentarios.focus()
+        valMsj.style.color = "red"
+        valMsj.innerHTML = "No se ha introducido ningun mensaje. "
+        return
+    };
+
+    document.pedidos.submit();
+
+    document.pedidos.reset();
 }
 
 // Autoseleccionar cafe si se accede desde menu
