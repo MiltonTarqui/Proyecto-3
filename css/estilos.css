@@ -172,7 +172,18 @@ body {
         margin-bottom: 15px;
 }
 
-
+.Desayuno img{
+        width: 80%;
+        height: 80%;
+}
+.Merienda img{
+        width: 80%;
+        height: 80%;
+}
+.Brunch img{
+        width: 80%;
+        height: 80%;
+}
 .coffee-group img{
         transition: all 300ms;
 }
@@ -485,3 +496,4 @@ h2{
         background-color: #337ab7; /* Cambia el color de fondo */
         color: #ce967b; /* Cambia el color del texto */
       }
+      
