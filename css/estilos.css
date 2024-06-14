@@ -118,7 +118,7 @@ body {
 
 
 .coffee{
-        padding: 50px 0;
+        padding: 40px 0;
         background-color: #e1e2e6;
         position: relative;
 }
@@ -135,18 +135,18 @@ body {
         /* padding: 0 250px; */
         margin-bottom: 10px;
 }
-
+/* 
 .txt-p{
         font-size: 16px;
         color: #414247;
         padding: 0 250px;
         margin-bottom: 35px;
-}
+} */
 
 .coffee-group{
         display: flex;
         justify-content: space-around;
-        margin-bottom: 50px;
+        margin-bottom: 10px;
 }
 /*
 .coffee-1{
@@ -188,6 +188,7 @@ body {
 
 .coffee-group h3{
         font-size: 30px;
+        margin-top: 20px;
 }
 
 .services {
@@ -215,12 +216,12 @@ body {
         margin-bottom: 50px;
 }
 
-.services-content p{
+/* .services-content p{
         font-size: 16px;
         color: #c5c5c5;
         margin-bottom: 50px;
         padding: 0 100px;
-}
+} */
 
 .services-group {
         display: grid;
@@ -229,14 +230,14 @@ body {
         margin-bottom: 75px;
 }
 
-.services-1{
+/* .services-1{
         padding: 0 100px;
 }
 
 .services-1 img{
-        /* width: 25px; */
+        /* width: 25px; 
         margin-bottom: 15px;
-}
+} */
 
 .services-1 h3{
         color: #eaccb3;
@@ -245,6 +246,7 @@ body {
 
 
 .services-group img{
+        margin-bottom: 15px;
         transition: all 300ms;
 }
 
@@ -268,6 +270,7 @@ body {
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
+        border-radius: 20px;
         width: 50%;
 }
 
@@ -280,6 +283,7 @@ body {
     background-size: 75% 75%;
     width: 50%;
     background-color: #1f1818;
+    border-radius: 20px;
 }
 
 h2{
