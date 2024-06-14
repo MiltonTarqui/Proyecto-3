@@ -105,9 +105,8 @@ body {
 }
 
 .btn-1 {
-     
-    /* display: inline-block; */
-    padding: 20px 45px;
+     border-radius: 15px;
+    padding: 10px 25px;
     background-color: #ce967b;
     color: #f9fafc;
     text-transform: uppercase;
@@ -284,8 +283,8 @@ body {
 }
 
 h2{
-        font-size: 55px;
-        line-height: 70px;
+        font-size: 40px;
+        line-height: 60px;
         color: #323337;
         text-transform: uppercase;
         margin-bottom: 20px;
